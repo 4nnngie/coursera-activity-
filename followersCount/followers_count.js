@@ -21,4 +21,9 @@ function checkCountValue() {
     } else if (count === 20) {
         alert("Tu publicación de Instagram ganó 20 seguidores! Sigue así!");
     }
+} 
+
+function resetCount() {
+    count = 0; // Restablecer a 0
+    displayCount(); // Mostrar en el html
 }
